@@ -1,0 +1,22 @@
+{
+  "name": "fenixpyre-testautomation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "report": "npx playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.45.3",
+    "@types/node": "^20.14.12"
+  },
+  "dependencies": {
+    "allure-playwright": "^3.0.0-beta.7",
+    "easy-yopmail": "^5.1.0",
+    "winston": "^3.13.1"
+  }
+}

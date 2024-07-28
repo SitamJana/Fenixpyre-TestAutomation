@@ -1,0 +1,20 @@
+2024-07-28 11:04:19.343 AM [] info: Navigating to the Sign in page
+2024-07-28 11:04:25.922 AM [] info: Got a new email address - meittebrowari-7355@yopmail.com
+2024-07-28 11:04:25.923 AM [] info: Entering meittebrowari-7355@yopmail.com into the Email Input box
+2024-07-28 11:04:26.183 AM [] info: Clicking on Continue button
+2024-07-28 11:04:27.177 AM [] info: Clicking on Continue button again to receive OTP
+2024-07-28 11:04:32.241 AM [] info: Got meittebrowari-7355@yopmail.com Email Inbox Contents - []
+2024-07-28 11:04:32.242 AM [] info: Email YET to arrive in meittebrowari-7355@yopmail.com Email inbox! Retrying in 2 seconds ...
+2024-07-28 11:04:32.242 AM [] info: Sleeping for 2 second(s)
+2024-07-28 11:04:36.659 AM [] info: Got meittebrowari-7355@yopmail.com Email Inbox Contents - [{"id":"e_ZwDjAmV4ZQHmAQZ0ZQNjZGH3AQD5At==","from":"Anchor Authentication","subject":"Your Anchor account One Time Passcode is ******","timestamp":"11:34","page":1}]
+2024-07-28 11:04:36.660 AM [] info: New Email arrived in meittebrowari-7355@yopmail.com Email inbox!
+2024-07-28 11:04:36.660 AM [] info: Reading OTP from the Mailbox ...
+2024-07-28 11:04:39.082 AM [] info: Got meittebrowari-7355@yopmail.com Email Inbox Contents - [{"id":"e_ZwDjAmV4ZQHmAQZ0ZQNjZGH3AQD5At==","from":"Anchor Authentication","subject":"Your Anchor account One Time Passcode is ******","timestamp":"11:34","page":1}]
+2024-07-28 11:04:41.869 AM [] info: Got meittebrowari-7355@yopmail.com Email message - {"id":"e_ZwDjAmV4ZQHmAQZ0ZQNjZGH3AQD5At==","submit":"Your Anchor account One Time Passcode is 547001","from":"Anchor Authentication <help@anchormydata.com>","date":"Sunday, July 28, 2024 11:34:34 AM","deliverability":"Your account has been credited","attachments":{},"format":"txt","selector":null,"eq":null,"attribute":null,"pathToSave":null,"content":"Verify Your Account You're receiving this e-mail because you are trying to authenticate into fenixpyre Your verification code is: 547001 Note: The Verification code will expire in 15 minutes and can only be used once. If you have any questions or concerns, we're here to help. Contact us via our Help Center.","info":[]}
+2024-07-28 11:04:41.862 AM [] info: Received OTP in the Mailbox. OTP is 313352
+2024-07-28 11:04:41.862 AM [] info: Entering 313352 as OTP into the OTP Input box
+2024-07-28 11:04:42.055 AM [] info: Clicking on Continue button
+2024-07-28 11:04:42.447 AM [] info: Clicking on Action tab on a file row
+2024-07-28 11:04:51.797 AM [] info: Clicking on "Preview" link
+2024-07-28 11:04:52.251 AM [] info: Validating file is opened in Preview mode
+ode
