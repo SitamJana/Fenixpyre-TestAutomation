@@ -1,15 +1,18 @@
-2024-07-28 11:46:46.888 AM [] info: Navigating to the Sign in page
-2024-07-28 11:46:54.029 AM [] info: Got a new email address - devogofretti-2222@yopmail.com
-2024-07-28 11:46:54.030 AM [] info: Entering devogofretti-2222@yopmail.com into the Email Input box
-2024-07-28 11:46:54.106 AM [] info: Clicking on Continue button
-2024-07-28 11:46:54.255 AM [] info: Clicking on Continue button again to receive OTP
-2024-07-28 11:46:56.146 AM [] info: Waiting for Email to arrive in devogofretti-2222@yopmail.com Email inbox ...
-2024-07-28 11:47:00.356 AM [] info: Got devogofretti-2222@yopmail.com Email Inbox Contents - [{"id":"e_ZwDjAmV4ZQLkAmNkZQNjZGtkAGR4Zj==","from":"Anchor Authentication","subject":"Your Anchor account One Time Passcode is ******","timestamp":"11:17","page":1}]
-2024-07-28 11:47:00.356 AM [] info: New Email arrived in devogofretti-2222@yopmail.com Email inbox!
-2024-07-28 11:47:00.357 AM [] info: Reading OTP from the Mailbox ...
-2024-07-28 11:47:05.606 AM [] info: Got devogofretti-2222@yopmail.com Email Inbox Contents - [{"id":"e_ZwDjAmV4ZQLkAmNkZQNjZGtkAGR4Zj==","from":"Anchor Authentication","subject":"Your Anchor account One Time Passcode is ******","timestamp":"12:17","page":1}]
-2024-07-28 11:47:10.257 AM [] info: Got devogofretti-2222@yopmail.com Email message - {"id":"e_ZwDjAmV4ZQLkAmNkZQNjZGtkAGR4Zj==","submit":"Your Anchor account One Time Passcode is 953045","from":"Anchor Authentication <help@anchormydata.com>","date":"Sunday, July 28, 2024 12:17:01 PM","deliverability":"Your account has been credited","attachments":{},"format":"txt","selector":null,"eq":null,"attribute":null,"pathToSave":null,"content":"Verify Your Account You're receiving this e-mail because you are trying to authenticate into fenixpyre Your verification code is: 953045 Note: The Verification code will expire in 15 minutes and can only be used once. If you have any questions or concerns, we're here to help. Contact us via our Help Center.","info":[]}
-2024-07-28 11:47:10.258 AM [] info: Received OTP in the Mailbox. OTP is 953045
-2024-07-28 11:47:10.259 AM [] info: Entering 953045 as OTP into the OTP Input box
-2024-07-28 11:47:10.289 AM [] info: Clicking on Continue button
-2024-07-28 11:47:10.354 AM [] info: Validating sign in successful
+2024-07-29 01:31:56.644 AM [] info: Navigating to the Sign in page
+2024-07-29 01:31:58.802 AM [] info: Entering user@domain.com into the Em2024-07-29 01:31:59.861 AM [] info: Validating Continue button is disabled
+2024-07-29 01:31:59.890 AM [] info: Validating Continue button text is "Continue" instead of "Contin2024-07-29 01:32:01.645 AM [] info: Clicking on Continue button again to receive OTP
+2024-07-29 01:32:01.727 AM [] info: Validating Error message regarding invalid email entered on Confirm email popup
+2024-07-29 01:32:01.759 AM [] info: Entering userdomain.com into the Email Input box on Confirm Email pop up
+2024-07-29 01:32:01.811 AM [] info: Clicking on Continue button again to receive OTP
+2024-07-29 01:32:01.885 AM [] info: Validating Error message regarding invalid email entered on Confirm email popup
+2024-07-29 01:32:01.898 AM [] info: Entering user@ into the Email Input box on Confirm Email pop up
+2024-07-29 01:32:01.942 AM [] info: Clicking on Continue button again to receive OTP
+2024-07-29 01:32:01.999 AM [] info: Validating Error message regarding invalid email entered on Confirm email popup
+2024-07-29 01:32:02.019 AM [] info: Entering user$%domain.com into the Email Input box on Confirm Email pop up
+2024-07-29 01:32:02.059 AM [] info: Clicking on Continue button again to receive OTP
+2024-07-29 01:32:02.130 AM [] info: Validating Error message regarding invalid email entered on Confirm email popup
+2024-07-29 01:32:02.144 AM [] info: Entering user@@domain.com into the Email Input box on Confirm Email pop up
+2024-07-29 01:32:02.182 AM [] info: Clicking on Continue button again to receive OTP
+2024-07-29 01:32:02.764 AM [] info: Validating Top Error message regarding invalid email entered on Confirm email popup
+text is "Continue" instead of "Continue with Email"
+2024-07-29 01:32:00.222 AM [] info: Validating Continue button tooltip shows the error message

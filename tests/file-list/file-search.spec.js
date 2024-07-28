@@ -21,7 +21,9 @@ test.describe("Search for File from File List", () => {
   });
 
   // Test case to validate file search workflow
-  test("Validate File Search Workflow", async ({ page }) => {
+  test("Validate File Search Workflow", {
+    tag: '@fileSearch',
+  }, async ({ page }) => {
     const fileListPage = new FileListPage(page, loggerInstance);
 
     // Navigate to the home menu and verify successful navigation

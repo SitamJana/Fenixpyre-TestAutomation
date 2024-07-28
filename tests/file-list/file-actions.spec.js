@@ -21,13 +21,17 @@ test.describe("File Actions Workflow", () => {
   });
 
   // Test case to verify opening a file in a new tab in Edit mode
-  test("Validate clicking on 'Open in new tab' opens the file in a new tab in Edit mode", async ({ page }) => {
+  test("Validate clicking on 'Open in new tab' opens the file in a new tab in Edit mode", {
+    tag: ['@fileActions', '@positive'],
+  }, async ({ page }) => {
     const fileListPage = new FileListPage(page, loggerInstance);
     await fileListPage.clickOpenInNewTabLinkAndValidateFileOpenedInEditMode();
   });
 
   // Test case to verify opening a file in a new tab in Preview mode
-  test("Validate clicking on 'Preview' opens the file in a new tab in Preview mode", async ({ page }) => {
+  test("Validate clicking on 'Preview' opens the file in a new tab in Preview mode", {
+    tag: ['@fileActions', '@positive'],
+  }, async ({ page }) => {
     const fileListPage = new FileListPage(page, loggerInstance);
     await fileListPage.clickPreviewLinkAndValidateFileOpenedInPreviewMode();
   });

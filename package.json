@@ -4,7 +4,12 @@
   "main": "index.js",
   "scripts": {
     "test": "npx playwright test",
-    "report": "npx playwright show-report"
+    "report": "npx playwright show-report",
+    "test:signin": "npm test -- --grep @signin",
+    "test:signin:positive": "npm test -- --grep \"(?=.*@signin)(?=.*@positive)\"",
+    "test:signin:negative": "npm test -- --grep \"(?=.*@signin)(?=.*@negative)\"",
+    "test:fileActions": "npm test -- --grep @fileActions",
+    "test:fileSearch": "npm test -- --grep @fileSearch"
   },
   "keywords": [],
   "author": "",
